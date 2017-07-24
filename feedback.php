@@ -264,10 +264,18 @@
 							  die("Errore nella connessione al db");
 						  
 						 
-						 $last_id = mysqli_insert_id($conn);
+						 $query = "select max(id) as idmax from ordini";
+						
+						 $res = $conn->query($query);
+						 
+						 $tupla = mysqli_fetch_array($res);
+						 
+						 $last_id = $tupla['idmax'];
+
+						 						 
 	
 									  echo "<h3>Grazie, abbiamo ricevuto la prenotazione! </h3><br>";
-									  echo "<h3> Il tuo codice prenotazione &egrave;: ".$last_id;
+									  echo "<h3> Il tuo codice prenotazione &egrave;:  ".$last_id;
 									  echo "</h3><br><br><br>";
 									  echo "<a href='index.html#prenota'>";
 									  echo "<button type='button' class='btn btn-primary btn-lg'>Nuova prenotazione";

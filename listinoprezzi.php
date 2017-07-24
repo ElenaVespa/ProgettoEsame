@@ -248,8 +248,8 @@
 						  
 								  while($tupla=mysqli_fetch_array($result)){
 	
-									  echo "<h3> Euro ".$tupla['prezzo'];
-									  echo "</h3>";
+									  echo "<h3> PREZZO: <br> <br>".$tupla['prezzo'];
+									  echo "&nbsp; euro </h3>";
 									 
 								  }
 							  
@@ -280,7 +280,7 @@
                 <div class="col-lg-offset-2 col-lg-8 col-lg-offset-2">
 					<h3> Approfitta degli sconti e della comodità della prenotazione online!</h3>
                     <p>  Prenota il tuo parcheggio compilando i campi sottostanti, 
-					riceverai un avviso di avvenuta prenotazione.</p> <br>
+					basterà poi venire in autorimessa con il tuo numero di prenotazione per trovare il posto riservato a te!</p> <br>
 					<form method="post" name="form_prenota" id="form_prenota" action="do_prenota.php"  data-toggle="validator" role="form">
 						<div class="form-group">
 						<label for="nome" class="control-label"> <p> Nome </p> </label> 

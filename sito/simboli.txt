@@ -1,9 +1,0 @@
-tel glyphicon glyphicon-phone-alt
-cell glyphicon glyphicon-earphone
-
-chiave inglese   glyphicon glyphicon-wrench
-
-
-indirizzo  glyphicon glyphicon-map-marker
-
-mail glyphicon glyphicon-envelope

@@ -1,5 +1,5 @@
 
-//caricamento immagini responsive + onmouseover bordo!!!!!!!! okkkk
+//caricamento immagini responsive + onmouseover bordo
 $(window).load(function() {	 
 		  if (document.documentElement.clientWidth < 480) {
 			  $("div[class='col-lg-4'] h4").each(function(){
