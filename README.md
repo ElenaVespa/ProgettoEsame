@@ -1,2 +1,0 @@
-# ProgettoEsame
-progetto esame Europarking
